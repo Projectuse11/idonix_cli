@@ -29,11 +29,27 @@
             "label": "A Shopify-hosted video"
           }
         ]
+      }, {
+        "name": "External Video",
+        "type": "external-video",
+        "settings": [
+          {
+            "type": "video_url",
+            "id": "video_url",
+            "accept": [
+              "youtube", "vimeo"
+            ],
+            "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "label": "URL",
+            "info": "Video plays in the page."
+          }
+        ]
       }
+
     ],
     "presets": [
       {
-        "name": "Videos"
+        "name": "Full Screen Video"
       }
     ]
   }
