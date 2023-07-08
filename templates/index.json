@@ -35,18 +35,8 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "f5902e6a-a748-4df0-b97e-f994626c6e41": {
+    "4db9714f-529f-4af3-b911-978f70e36516": {
       "type": "full-screen-video",
-      "blocks": {
-        "8bc75447-5139-4768-9358-208281a39579": {
-          "type": "video-shopify-hosted",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "8bc75447-5139-4768-9358-208281a39579"
-      ],
       "settings": {
         "heading": "Title"
       }
@@ -54,6 +44,6 @@
   },
   "order": [
     "slideshow",
-    "f5902e6a-a748-4df0-b97e-f994626c6e41"
+    "4db9714f-529f-4af3-b911-978f70e36516"
   ]
 }
