@@ -34,9 +34,16 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "7f263592-aabb-4ddd-bb88-fde26fe301f5": {
+      "type": "full-screen-video",
+      "settings": {
+        "heading": "Title"
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "7f263592-aabb-4ddd-bb88-fde26fe301f5"
   ]
 }
