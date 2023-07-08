@@ -35,7 +35,7 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "7f263592-aabb-4ddd-bb88-fde26fe301f5": {
+    "2a533560-8ed8-4437-8d56-2250b8256ec3": {
       "type": "full-screen-video",
       "settings": {
         "heading": "Title"
@@ -44,6 +44,6 @@
   },
   "order": [
     "slideshow",
-    "7f263592-aabb-4ddd-bb88-fde26fe301f5"
+    "2a533560-8ed8-4437-8d56-2250b8256ec3"
   ]
 }
