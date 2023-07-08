@@ -1,8 +1,27 @@
 {% for block in section.blocks %}
   {% case block.type %}
     {% when 'video-stored' %}
-    <div class="stored-video" {{ block.shopify_attributes }}>
+    <div
+      class="stored-video"
+      style="width:100%; height:60%"
+      {{ block.shopify_attributes }}>
       {{ block.settings.video | media_tag }}
+    </div>
+    {% when 'external-video' %}
+    <div class="external-video" {{ block.shopify_attributes }}>
+      {%- if block.settings.video_url.type == 'youtube' -%}
+        <iframe
+          src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}"
+          class="youtube"
+          title="{{ block.settings.description | escape }}"
+          allow="autoplay; encrypted-media"></iframe>
+      {%- else -%}
+        <iframe
+          src="https://player.vimeo.com/video/{{ block.settings.video_url.id }}"
+          class="vimeo"
+          title="{{ block.settings.description | escape }}"
+          allow="autoplay; encrypted-media"></iframe>
+      {%- endif -%}
     </div>
   {% endcase %}
 {% endfor %}

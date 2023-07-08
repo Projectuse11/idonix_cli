@@ -35,26 +35,37 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "a6d06aa4-ff7f-437d-8644-93c21792b366": {
-      "type": "full-screen-video",
-      "blocks": {
-        "70de1ed8-fe57-4429-96af-22cc07721e84": {
-          "type": "video-shopify-hosted",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/Learn how to make incense.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "70de1ed8-fe57-4429-96af-22cc07721e84"
-      ],
+    "featured-collection-0": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "Title"
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
   "order": [
     "slideshow",
-    "a6d06aa4-ff7f-437d-8644-93c21792b366"
+    "featured-collection-0"
   ]
 }
