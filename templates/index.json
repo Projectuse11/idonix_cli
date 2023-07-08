@@ -34,9 +34,27 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "a5fb6448-c740-44c6-b267-2c446571d93e": {
+      "type": "full-screen-video",
+      "blocks": {
+        "4c092bee-b061-496b-9f0b-d7c6ad1266b0": {
+          "type": "video-shopify-hosted",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Fainal Video_compressed.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "4c092bee-b061-496b-9f0b-d7c6ad1266b0"
+      ],
+      "settings": {
+        "heading": "Title"
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "a5fb6448-c740-44c6-b267-2c446571d93e"
   ]
 }
