@@ -34,9 +34,17 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "75097351-cab6-4c44-8e64-860ed3dc9a56": {
+      "type": "full-screen-video",
+      "settings": {
+        "heading": "Title",
+        "video": "shopify:\/\/files\/videos\/Learn how to make incense.mp4"
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "75097351-cab6-4c44-8e64-860ed3dc9a56"
   ]
 }
