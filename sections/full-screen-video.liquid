@@ -1,10 +1,15 @@
-<div class="video-section">
-  <h2>{{ section.settings.heading }}</h2>
-</div>
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'video-stored' %}
+    <div class="stored-video" {{ block.shopify_attributes }}>
+      {{ block.settings.video | media_tag }}
+    </div>
+  {% endcase %}
+{% endfor %}
 
 {% schema %}
   {
-    "name": "Full Screen Video",
+    "name": "Video",
     "settings": [
       {
         "type": "text",
@@ -13,9 +18,22 @@
         "default": "Title"
       }
     ],
+    "blocks": [
+      {
+        "name": "Shopify Hosted Video",
+        "type": "video-shopify-hosted",
+        "settings": [
+          {
+            "type": "video",
+            "id": "video",
+            "label": "A Shopify-hosted video"
+          }
+        ]
+      }
+    ],
     "presets": [
       {
-        "name": "Video by URL"
+        "name": "Videos"
       }
     ]
   }
