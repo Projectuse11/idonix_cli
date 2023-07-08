@@ -8,7 +8,10 @@
       {{ block.settings.video | media_tag }}
     </div>
     {% when 'external-video' %}
-    <div class="external-video" {{ block.shopify_attributes }}>
+    <div
+      class="external-video"
+      style="width:100%; height:60%; display:block"
+      {{ block.shopify_attributes }}>
       {%- if block.settings.video_url.type == 'youtube' -%}
         <iframe
           src="https://www.youtube.com/embed/{{ block.settings.video_url.id }}"
