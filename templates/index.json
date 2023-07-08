@@ -34,9 +34,27 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "4f0a2748-5f9b-44fd-9050-68a6811ffdcf": {
+      "type": "full-screen-video",
+      "blocks": {
+        "e5c63120-1582-46f4-9c32-9ddf1242560e": {
+          "type": "video-shopify-hosted",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/Learn how to make incense.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "e5c63120-1582-46f4-9c32-9ddf1242560e"
+      ],
+      "settings": {
+        "heading": "Title"
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "4f0a2748-5f9b-44fd-9050-68a6811ffdcf"
   ]
 }
