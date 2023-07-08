@@ -1,5 +1,11 @@
-<div class="video-section">
-  {{ section.settings.video | video_tag }}
+<div class="video-section" style="height: 80%; width:100%">
+  <video
+    muted
+    autoplay
+    playsinline
+    loop>
+    <source src="{{ section.settings.video | video_tag }}" type="video/mp4">
+  </video>
 </div>
 
 {% schema %}
