@@ -71,10 +71,24 @@
           "settings": {
             "collection": "frontpage"
           }
+        },
+        "7cbf3b68-9a6a-434c-ad70-9974b86ab4b8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        },
+        "1502cf76-50c1-4a02-99ba-b0da8f181dc7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "frontpage"
+          }
         }
       },
       "block_order": [
-        "template--19732176240935__69f84ed8-b574-4830-bfd2-55334ef5e7c3-featured_collection-1"
+        "template--19732176240935__69f84ed8-b574-4830-bfd2-55334ef5e7c3-featured_collection-1",
+        "7cbf3b68-9a6a-434c-ad70-9974b86ab4b8",
+        "1502cf76-50c1-4a02-99ba-b0da8f181dc7"
       ],
       "settings": {
         "title": "Collections",
